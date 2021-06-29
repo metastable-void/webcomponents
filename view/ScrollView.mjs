@@ -1,4 +1,6 @@
 
+import {View} from "./View.mjs";
+
 export class ScrollView extends HTMLElement {
   constructor() {
     //
@@ -10,5 +12,5 @@ export class ScrollView extends HTMLElement {
   }
 }
 
-customElements.define('menhera-ScrollView', ScrollView);
+View.register(ScrollView);
 
